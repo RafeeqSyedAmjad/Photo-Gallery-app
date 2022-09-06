@@ -1,0 +1,1420 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #1E1E1E;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+
+
+.upload {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 19px;
+    gap: 4px;
+
+    position: absolute;
+    width: 201px;
+    height: 48px;
+    left: 1231px;
+    top: 43px;
+}
+
+.smallupload {
+    display: none;
+}
+
+.frame {
+    position: absolute;
+    width: 394px;
+    height: 48px;
+    left: 559px;
+    top: 43px;
+}
+
+#top-icons {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+}
+
+.cog {
+    left: 80px;
+    top: 51px;
+}
+
+.bell {
+    left: 134px;
+    top: 51px;
+}
+
+.library {
+    position: absolute;
+    width: 288px;
+    height: 56px;
+    left: 80px;
+    top: 161px;
+
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 87px;
+    display: flex;
+    align-items: center;
+    color: #2E8BFF;
+}
+
+.search {
+    position: absolute;
+    width: 331px;
+    height: 56px;
+    left: 1101px;
+    top: 161px;
+}
+
+.line {
+    position: absolute;
+    width: 1352px;
+    height: 0px;
+    left: 80px;
+    top: 350px;
+    border: 1px solid #212325;
+}
+
+.buttons {
+    position: absolute;
+    width: 95px;
+    height: 31px;
+}
+
+#Allphotos {
+    left: 80px;
+    top: 312px;
+    color: #FFFFFF;
+}
+
+#Architecture {
+    left: 214px;
+    top: 312px;
+}
+
+.btn-box button {
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #6F7378;
+}
+
+.btn-box .fa {
+    margin-right: 6px;
+}
+
+.btn-box button:hover .fa {
+    color: #FFFFFF;
+}
+
+.content {
+    /* position: absolute; */
+    transform: translateX(100%);
+    transition: 0.3s;
+}
+
+#content1 {
+    transform: translateX(0px);
+}
+
+.places img {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #6F7378;
+}
+
+.Kashmir {
+    position: absolute;
+    width: 104px;
+    height: 32px;
+    left: 391px;
+    top: 312px;
+}
+
+.Seaside {
+    position: absolute;
+    width: 107px;
+    height: 32px;
+    left: 529px;
+    top: 312px;
+}
+
+.Lake-view {
+    position: absolute;
+    width: 126px;
+    height: 32px;
+    left: 670px;
+    top: 312px;
+}
+
+.Italy {
+    position: absolute;
+    width: 67px;
+    height: 32px;
+    left: 830px;
+    top: 312px;
+}
+
+.China {
+    position: absolute;
+    width: 80px;
+    height: 32px;
+    left: 931px;
+    top: 312px;
+}
+
+.Argentina {
+    position: absolute;
+    width: 114px;
+    height: 32px;
+    left: 1045px;
+    top: 312px;
+}
+
+.new-category {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 0px;
+    gap: 10px;
+
+    position: absolute;
+    width: 146px;
+    height: 32px;
+    left: 1286px;
+    top: 302px;
+
+    background: #323337;
+    border-radius: 300px;
+}
+
+.content h3 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 63px;
+    display: flex;
+    align-items: center;
+
+    color: #2E8BFF;
+}
+
+.Today {
+    position: absolute;
+    width: 186px;
+    height: 50px;
+    left: 80px;
+    top: 377px;
+}
+
+.friday {
+    position: absolute;
+    width: 186px;
+    height: 50px;
+    left: 80px;
+    top: 450px;
+
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #6F7378;
+}
+
+.Week {
+    position: absolute;
+    width: 277px;
+    height: 59px;
+    left: 70px;
+    top: 659px;
+}
+
+.August {
+    position: absolute;
+    width: 186px;
+    height: 50px;
+    left: 80px;
+    top: 730px;
+
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #6F7378;
+}
+
+.gallery {
+    position: absolute;
+    width: 159px;
+    height: 241px;
+    left: 318px;
+    top: 377px;
+}
+
+.child {
+    position: absolute;
+    width: 159px;
+    height: 199px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+}
+
+#textstyle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #B7BEC7;
+}
+
+.image1 {
+    position: absolute;
+    width: 159px;
+    height: 32px;
+    left: 30px;
+    top: 200px;
+
+}
+
+.heart1 {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 123px;
+    top: 7px;
+}
+
+.New-house {
+    position: absolute;
+    width: 159px;
+    height: 111px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+}
+
+.photo2 {
+    position: absolute;
+    width: 159px;
+    height: 153px;
+    left: 500px;
+    top: 465px;
+}
+
+.image2 {
+    position: absolute;
+    width: 159px;
+    height: 32px;
+    left: 30px;
+    top: 113px;
+}
+
+.heart2 {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 122px;
+    top: 6px;
+    background: #EC6A5E;
+}
+
+.Barakpore {
+    position: absolute;
+    width: 159px;
+    height: 168px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+}
+
+.photo3 {
+    position: absolute;
+    width: 159px;
+    height: 210px;
+    left: 682px;
+    top: 408px;
+}
+
+.image3 {
+    position: absolute;
+    width: 159px;
+    height: 32px;
+    left: 15px;
+    top: 178px;
+}
+
+
+
+.Kitchen {
+    position: absolute;
+    width: 129px;
+    height: 199px;
+    left: 25px;
+    top: 0px;
+    border-radius: 10px;
+}
+
+.photo4 {
+    position: absolute;
+    width: 159px;
+    height: 241px;
+    left: 864px;
+    top: 377px;
+}
+
+.image4 {
+    position: absolute;
+    width: 159px;
+    height: 32px;
+    left: 25px;
+    top: 209px;
+}
+
+
+
+.Bridge {
+    position: absolute;
+    width: 159px;
+    height: 95px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+}
+
+.photo5 {
+    position: absolute;
+    width: 159px;
+    height: 137px;
+    left: 1046px;
+    top: 481px;
+}
+
+.image5 {
+    position: absolute;
+    width: 159px;
+    height: 32px;
+    left: 35px;
+    top: 105px;
+}
+
+
+
+.Abstract {
+    position: absolute;
+    width: 159px;
+    height: 160px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+}
+
+.photo6 {
+    position: absolute;
+    width: 159px;
+    height: 202px;
+    left: 1228px;
+    top: 416px;
+}
+
+.image6 {
+    position: absolute;
+    width: 159px;
+    height: 32px;
+    left: 30px;
+    top: 170px;
+
+}
+
+.photo7 {
+    position: absolute;
+    width: 159px;
+    height: 243px;
+    left: 318px;
+    top: 659px;
+}
+
+.image7 {
+    position: absolute;
+    width: 159px;
+    height: 32px;
+    left: 30px;
+    top: 200px;
+}
+
+.photo8 {
+    position: absolute;
+    width: 159px;
+    height: 241px;
+    left: 500px;
+    top: 661px;
+}
+
+.image8 {
+    position: absolute;
+    width: 159px;
+    height: 32px;
+    left: 30px;
+    top: 200px;
+
+}
+
+.photo9 {
+    position: absolute;
+    width: 159px;
+    height: 137px;
+    left: 682px;
+    top: 765px;
+}
+
+.image9 {
+    position: absolute;
+    width: 159px;
+    height: 32px;
+    left: 10px;
+    top: 100px;
+}
+
+.photo10 {
+    position: absolute;
+    width: 159px;
+    height: 210px;
+    left: 864px;
+    top: 692px;
+}
+
+.image10 {
+    position: absolute;
+    width: 159px;
+    height: 32px;
+    left: 0px;
+    top: 170px;
+}
+
+.photo11 {
+    position: absolute;
+    width: 159px;
+    height: 210px;
+    left: 1046px;
+    top: 692px;
+}
+
+.image11 {
+    position: absolute;
+    width: 159px;
+    height: 32px;
+    left: 30px;
+    top: 170px;
+}
+
+.photo12 {
+    position: absolute;
+    width: 159px;
+    height: 241px;
+    left: 1228px;
+    top: 661px;
+}
+
+.image12 {
+    position: absolute;
+    width: 159px;
+    height: 32px;
+    left: 20px;
+    top: 200px;
+}
+
+.photo13 {
+    position: absolute;
+    width: 159px;
+    height: 243px;
+    left: 318px;
+    top: 940px;
+}
+
+.image13 {
+    position: absolute;
+    width: 159px;
+    height: 32px;
+    left: 25px;
+    top: 200px;
+}
+
+.photo14 {
+    position: absolute;
+    width: 159px;
+    height: 194px;
+    left: 500px;
+    top: 990px;
+}
+
+.image14 {
+    position: absolute;
+    width: 159px;
+    height: 32px;
+    left: 30px;
+    top: 162px;
+}
+
+.image99 {
+    position: absolute;
+    width: 159px;
+    height: 32px;
+    left: 40px;
+    top: 150px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #B7BEC7;
+}
+
+.Abstract99 {
+    position: absolute;
+    width: 159px;
+    height: 150px;
+    left: 10px;
+    top: 1px;
+    border-radius: 10px;
+}
+
+.photo99 {
+    position: absolute;
+    width: 159px;
+    height: 194px;
+    left: 500px;
+    top: 990px;
+}
+
+.New-house1 {
+    position: absolute;
+    width: 159px;
+    height: 111px;
+    left: 318px;
+    top: 465px;
+    border-radius: 10px;
+}
+
+#textstyle1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #B7BEC7;
+}
+
+.image15 {
+    position: absolute;
+    width: 159px;
+    height: 32px;
+    left: 335px;
+    top: 586px;
+}
+
+.heart3 {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 440px;
+    top: 471px;
+    background: #EC6A5E;
+}
+
+.heart4 {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 804px;
+    top: 472px;
+}
+
+.Kitchen1 {
+    position: absolute;
+    width: 108px;
+    height: 199px;
+    left: 525px;
+    top: 377px;
+    border-radius: 10px;
+}
+
+.image16 {
+    position: absolute;
+    width: 159px;
+    height: 32px;
+    left: 500px;
+    top: 586px;
+}
+
+.Bridge1 {
+    position: absolute;
+    width: 159px;
+    height: 111px;
+    left: 682px;
+    top: 465px;
+    border-radius: 10px;
+}
+
+.image18 {
+    position: absolute;
+    width: 159px;
+    height: 32px;
+    left: 730px;
+    top: 586px;
+}
+
+
+.Whitehouse1 {
+    position: absolute;
+    width: 159px;
+    height: 199px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+}
+
+.image19 {
+    position: absolute;
+    width: 159px;
+    height: 32px;
+    left: 25px;
+    top: 211px;
+}
+
+.women1 {
+    position: absolute;
+    width: 108px;
+    height: 199px;
+    left: 25px;
+    top: 0px;
+    border-radius: 10px;
+}
+
+.image20 {
+    position: absolute;
+    width: 159px;
+    height: 32px;
+    left: 25px;
+    top: 209px;
+}
+
+.cat1 {
+    position: absolute;
+    width: 159px;
+    height: 150px;
+    left: 200px;
+    border-radius: 10px;
+}
+
+.image21 {
+    position: absolute;
+    width: 159px;
+    height: 32px;
+    left: 30px;
+    bottom: 1px;
+}
+
+.heart5 {
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 80%;
+    right: 8.33%;
+    top: 5%;
+    bottom: 12.43%;
+}
+
+.heart6 {
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 60%;
+    right: 8.33%;
+    top: 5%;
+    bottom: 12.43%;
+}
+
+
+.heart8 {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 597px;
+    top: 383px;
+    background: #EC6A5E;
+}
+
+.Abstract1 {
+    position: absolute;
+    width: 159px;
+    height: 150px;
+    left: 10px;
+    bottom: 40px;
+    border-radius: 10px;
+}
+
+.image22 {
+    position: absolute;
+    width: 159px;
+    height: 32px;
+    left: 40px;
+    bottom: 2px;
+}
+
+.heart7 {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    right: 1px;
+}
+
+.photo14 {
+    position: absolute;
+    width: 159px;
+    height: 194px;
+    left: 682px;
+    top: 708px;
+}
+
+@media only screen and (min-width:321px) and (max-width:768px) {
+
+
+    body {
+        overflow-x: hidden;
+    }
+
+
+    .frame {
+        position: absolute;
+        width: 394px;
+        height: 48px;
+        left: 308px;
+        top: 43px;
+    }
+
+    .upload {
+        display: none;
+    }
+
+    .smallupload {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 19px;
+        gap: 4px;
+        position: absolute;
+        width: 88px;
+        height: 48px;
+        left: 843px;
+        top: 43px;
+    }
+
+    .search {
+        position: absolute;
+        width: 331px;
+        height: 56px;
+        left: 600px;
+        top: 161px;
+    }
+
+    .library {
+        position: absolute;
+        width: 288px;
+        height: 56px;
+        left: 80px;
+        top: 161px;
+    }
+
+    .Today {
+        position: absolute;
+        width: 186px;
+        height: 50px;
+        left: 80px;
+        top: 377px;
+    }
+
+    .friday {
+        position: absolute;
+        width: 186px;
+        height: 50px;
+        left: 80px;
+        top: 442px;
+    }
+
+    .August {
+        position: absolute;
+        width: 186px;
+        height: 50px;
+        left: 86px;
+        top: 1003px;
+    }
+
+    .Week {
+        position: absolute;
+        width: 277px;
+        height: 59px;
+        left: 86px;
+        top: 941px;
+    }
+
+    .line {
+        position: absolute;
+        width: 852px;
+        height: 0px;
+        left: 80px;
+        top: 334px;
+    }
+
+    .new-category {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 4px 0px;
+        gap: 10px;
+
+        position: absolute;
+        width: 146px;
+        height: 32px;
+        left: 782px;
+        top: 293px;
+    }
+
+    #Allphotos {
+        position: absolute;
+        width: 95px;
+        height: 31px;
+        left: 80px;
+        top: 293px;
+    }
+
+    #Architecture {
+        position: absolute;
+        width: 143px;
+        height: 31px;
+        left: 197px;
+        top: 293px;
+    }
+
+    .Kashmir {
+        width: 104px;
+        height: 32px;
+        left: 360px;
+        top: 293px;
+    }
+
+    .Seaside {
+        width: 107px;
+        height: 32px;
+        left: 484px;
+        top: 293px;
+    }
+
+    .Lake-view {
+        position: absolute;
+        width: 126px;
+        height: 32px;
+        left: 611px;
+        top: 293px;
+    }
+
+    .China {
+        display: none;
+        visibility: hidden;
+    }
+
+    .Argentina {
+        display: none;
+        visibility: hidden;
+    }
+
+    .Italy {
+        position: absolute;
+        width: 67px;
+        height: 32px;
+        left: 830px;
+        top: 293px;
+    }
+
+    .photo2 {
+        position: absolute;
+        width: 159px;
+        height: 153px;
+        left: 500px;
+        top: 465px;
+    }
+
+    .gallery {
+        position: absolute;
+        width: 159px;
+        height: 241px;
+        left: 318px;
+        top: 377px;
+    }
+
+    .photo3 {
+        position: absolute;
+        width: 159px;
+        height: 210px;
+        left: 682px;
+        top: 408px;
+    }
+
+    .photo4 {
+        position: absolute;
+        width: 159px;
+        height: 241px;
+        left: 319px;
+        top: 658px;
+    }
+
+    .photo5 {
+        position: absolute;
+        width: 159px;
+        height: 137px;
+        left: 501px;
+        top: 762px;
+    }
+
+    .photo6 {
+        position: absolute;
+        width: 159px;
+        height: 202px;
+        left: 683px;
+        top: 697px;
+    }
+
+    .photo7 {
+        position: absolute;
+        width: 159px;
+        height: 243px;
+        left: 318px;
+        top: 941px;
+    }
+
+    .photo8 {
+        width: 159px;
+        height: 241px;
+        left: 500px;
+        top: 943px;
+    }
+
+    .photo9 {
+        width: 159px;
+        height: 137px;
+        left: 682px;
+        top: 1047px;
+    }
+
+    .photo10 {
+        width: 159px;
+        height: 210px;
+        left: 319px;
+        top: 1254px;
+    }
+
+    .photo11 {
+        width: 159px;
+        height: 210px;
+        left: 501px;
+        top: 1254px;
+    }
+
+    .photo12 {
+        width: 159px;
+        height: 241px;
+        left: 683px;
+        top: 1223px;
+    }
+
+    .photo13 {
+        width: 159px;
+        height: 243px;
+        left: 318px;
+        top: 1503px;
+    }
+
+    .photo14 {
+        width: 159px;
+        height: 194px;
+        left: 680px;
+        top: 1000px;
+    }
+
+    .photo99 {
+        position: absolute;
+        width: 159px;
+        height: 194px;
+        left: 500px;
+        top: 1552px;
+    }
+
+    .cog {
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        left: 80px;
+        top: 51px;
+    }
+
+    .bell {
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        left: 134px;
+        top: 51px;
+    }
+
+    .new-category {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 4px 0px;
+        gap: 10px;
+
+        position: absolute;
+        width: 146px;
+        height: 32px;
+        left: 782px;
+        top: 293px;
+    }
+
+
+
+}
+
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    body {
+        position: relative
+    }
+
+    .Today {
+        position: absolute;
+        width: 186px;
+        height: 50px;
+        left: 24px;
+        top: 315px;
+    }
+
+    .content h3 {
+        font-family: 'Cormorant Upright';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 52px;
+        line-height: 63px;
+        display: flex;
+        align-items: center;
+        color: #2E8BFF;
+    }
+
+    .Week {
+        position: absolute;
+        width: 277px;
+        height: 59px;
+        left: 27px;
+        top: 1276px;
+    }
+
+    .friday {
+        position: absolute;
+        width: 186px;
+        height: 50px;
+        left: 24px;
+        top: 380px;
+    }
+
+    .August {
+        position: absolute;
+        width: 186px;
+        height: 50px;
+        left: 27px;
+        top: 1338px;
+    }
+
+    .search {
+        position: absolute;
+        width: 375px;
+        height: 56px;
+        left: 15px;
+        top: 132px;
+    }
+
+    .library {
+        font-size: 0;
+    }
+
+    .smallupload {
+
+        display: flex;
+        flex-direction: row;
+
+        position: absolute;
+        width: 88px;
+        height: 48px;
+        left: 280px;
+        top: 43px;
+
+    }
+
+    .upload {
+        display: none;
+    }
+
+    #Allphotos {
+        position: absolute;
+        width: 95px;
+        height: 31px;
+        left: 25px;
+        top: 231px;
+    }
+
+    #Architecture {
+        position: absolute;
+        width: 143px;
+        height: 31px;
+        left: 142px;
+        top: 231px;
+    }
+
+    .Kashmir {
+        position: absolute;
+        width: 104px;
+        height: 32px;
+        left: 305px;
+        top: 231px;
+    }
+
+    .Seaside {
+        position: absolute;
+        width: 107px;
+        height: 32px;
+        left: 429px;
+        top: 231px;
+    }
+
+    .Lake-view {
+        position: absolute;
+        width: 126px;
+        height: 32px;
+        left: 556px;
+        top: 231px;
+    }
+
+    .line {
+        width: 1352px;
+        height: 0px;
+        left: 25px;
+        top: 272px
+    }
+
+    .photo2 {
+        position: absolute;
+        width: 159px;
+        height: 153px;
+        left: 206px;
+        top: 532px;
+    }
+
+    .picture1 {
+        position: absolute;
+        width: 159px;
+        height: 153px;
+        left: 206px;
+        top: 532px;
+    }
+
+
+    .gallery {
+        position: absolute;
+        width: 159px;
+        height: 241px;
+        left: 24px;
+        top: 444px;
+    }
+
+    .photo3 {
+        position: absolute;
+        width: 159px;
+        height: 210px;
+        left: 27px;
+        top: 1006px;
+    }
+
+
+    .photo5 {
+        position: absolute;
+        width: 159px;
+        height: 137px;
+        left: 207px;
+        top: 829px;
+    }
+
+    .picture3 {
+        position: absolute;
+        width: 159px;
+        height: 137px;
+        left: 207px;
+        top: 829px;
+    }
+
+    .photo6 {
+        position: absolute;
+        width: 159px;
+        height: 202px;
+        left: 209px;
+        top: 1014px;
+    }
+
+    .photo4 {
+        position: absolute;
+        width: 159px;
+        height: 241px;
+        left: 25px;
+        top: 725px;
+    }
+
+    .picture2 {
+        position: absolute;
+        width: 159px;
+        height: 241px;
+        left: 25px;
+        top: 725px;
+    }
+
+
+    .photo7 {
+        position: absolute;
+        width: 159px;
+        height: 243px;
+        left: 25px;
+        top: 1396px;
+    }
+
+    .photo8 {
+        position: absolute;
+        width: 159px;
+        height: 241px;
+        left: 207px;
+        top: 1398px;
+    }
+
+    .photo10 {
+        position: absolute;
+        width: 159px;
+        height: 210px;
+        left: 206px;
+        top: 1693px;
+    }
+
+    .photo9 {
+        position: absolute;
+        width: 159px;
+        height: 137px;
+        left: 25px;
+        top: 1766px;
+    }
+
+    .photo13 {
+        position: absolute;
+        width: 159px;
+        height: 243px;
+        left: 25px;
+        top: 2224px;
+    }
+
+    .photo14 {
+        position: absolute;
+        width: 159px;
+        height: 243px;
+        left: 25px;
+        top: 2224px;
+    }
+
+    .photo11 {
+        position: absolute;
+        width: 159px;
+        height: 210px;
+        left: 24px;
+        top: 1974px;
+    }
+
+    .photo12 {
+        position: absolute;
+        width: 159px;
+        height: 241px;
+        left: 206px;
+        top: 1943px;
+    }
+
+    .photo99 {
+        position: absolute;
+        width: 159px;
+        height: 194px;
+        left: 207px;
+        top: 2273px;
+    }
+
+
+
+
+
+}

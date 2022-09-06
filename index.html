@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Photo Gallery app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    
+        <div class = "wrapper">
+            <nav>
+                <img  id = "top-icons" class = "cog" src="Images/cog.svg" alt="cog">
+                <img id = "top-icons" class = "bell" src="Images/bell.svg">
+                <img class = "frame" src="Images/Frame.png" alt="Frame">
+                <img class = "upload"  src="Images/Upload Photos.png" alt="Upload Photos">
+                <img class = "smallupload"src="Images/Frame 11.svg" alt="upload">
+
+            </nav>
+        </div>
+        <h1 class = "library">Library</h1>
+        <img class = "search" src="Images/Search photos.png" alt="search">
+          <div class = "btn-box">
+            <button id = "Allphotos"  class = "buttons" onclick="openAllphotos()">All photos</button>
+            <button id = "Architecture" class = "buttons" onclick="openArchitecture()"> <i class="fa fa-usd"></i>Architecture</button>
+          </div>
+        <div class = "places">
+          <img class = "Kashmir"  src="Images/🏔 Kashmir.svg" alt="Kashmir">
+          <img class = "Seaside" src="Images/⛵️ Seaside.svg" alt="Seaside">
+          <img class = "Lake-view" src="Images/🐟 Lake view.svg" alt="Lake view">
+          <img class = "Italy" src="Images/🇮🇹 Italy.svg" alt="Italy">
+          <img class = "China" src="Images/🇨🇳 China.svg" alt="China">
+          <img class = "Argentina" src = "Images/🇦🇷Argentina.svg" alt = "🇦🇷Argentina">
+        </div>
+        <img class = "new-category" src="Images/New Category.png" alt="new">
+        <hr class = "line"></hr>
+        
+        <div id = "content1" class = "content">
+          <h3 class = "Today">Today</h3>
+          <h1 class = "friday">Friday, 26 August 2022</h1>
+          <div class = "gallery">
+          <img class = "child" src="Images/seg_12399.jpg" alt="child">
+          <h1 id = "textstyle"  class = "image1">seg_12399.jpg</h1>
+          <img class ="heart1" src="Images/heart.png" alt="heart">
+          </div>
+          <div class = "photo2">
+          <img class = "New-house" src="Images/New_house.jpg">
+          <h1  id = "textstyle"  class = "image2">New_house.jpg</h1>
+          <img class = "heart2" src="Images/Vector.svg" alt="redheart">
+          </div>
+          <div class = "photo3">
+          <img class = "Barakpore" src="Images/Barakpore valley.jpg">
+          <h1 id = "textstyle"  class = "image3">Barakpore valley.jpg</h1>
+          <img class = "heart1" src="Images/heart.png" alt="redheart">
+          </div>
+          <div class = "photo4">
+          <img class = "Kitchen" src="Images/Kitchen_sansudan.jpg">
+          <h1 id = "textstyle"  class = "image4">Kitchen_sansudan.jpg</h1>
+          <img class = "heart2" src="Images/Vector.svg" alt="redheart">
+          </div>
+          <div class = "photo5">
+          <img class = "Bridge" src="Images/Bridge.jpg">
+          <h1 id = "textstyle"  class = "image5">Bridge.jpg</h1>
+          <img class = "heart1" src="Images/heart.png" alt="redheart">
+          </div>
+          <div class = "photo6">
+          <img class = "Abstract" src="Images/Abstract_4453.jpg">
+          <h1 id = "textstyle"  class = "image6">Abstract_44533.jpg</h1>
+          <img class = "heart1" src="Images/heart.png" alt="redheart">
+          </div>
+
+        
+          <h3 class="Week">This Week</h3>
+          <h1 class = "August">21 to 25 August 2022</h1>
+          <div class = "photo7">
+          <img class = "child" src="Images/Whitehouse.jpg" alt = "child">
+          <h1 id = "textstyle" class = "image7">seg_12399.jpg</h1>
+          <img class = "heart1" src="Images/heart.png" alt="redheart">
+          </div>
+          <div class = "photo8">
+          <img class = "Kitchen" src="Images/women.jpg">
+          <h1 id = "textstyle"  class = "image8">New_house.jpg</h1>
+          <img class = "heart1" src="Images/heart.png" alt="redheart">
+          </div>
+          <div class = "photo9">
+          <img class = "Bridge" src="Images/boats.jpg">
+          <h1 id = "textstyle"  class = "image9">Barakpore valley.jpg</h1>
+          <img class = "heart1" src="Images/heart.png" alt="redheart">
+          </div>
+          <div class = "photo10">
+          <img class = "Abstract" src="Images/Swimmingpool.jpg">
+          <h1 id = "textstyle"  class = "image10">Kitchen_sansudan.jpg</h1>
+          <img class = "heart1" src="Images/heart.png" alt="redheart">
+          </div>
+          <div class = "photo11">
+          <img class = "Abstract" src="Images/waterhouse.jpg">
+          <h1 id = "textstyle" class = "image11">Bridge.jpg</h1>
+          <img class = "heart1" src="Images/heart.png" alt="redheart">
+          </div>
+          <div class = "photo12">
+          <img class = "child" src="Images/RedHouse.jpg">
+          <h1 id = "textstyle"  class = "image12">Abstract_44533.jpg</h1>
+          <img class = "heart1" src="Images/heart.png" alt="redheart">
+          </div>
+          <div class = "photo13">
+          <img class = "child" src="Images/garden.jpg">
+          <h1 id = "textstyle"  class = "image13">seg_12399.jpg</h1>
+          <img class = "heart1" src="Images/heart.png" alt="redheart">
+          </div>
+          <div class = "photo99">
+          <img class = "Abstract99" src="Images/cat.jpg">
+          <h1 id="textstyle" class = "image99">New_house.jpg</h1>
+          <img class = "heart1" src="Images/heart.png" alt="redheart">
+          </div>
+        </div>
+        <div id = "content2" class = "content">
+          <h3 class = "Today">Today</h3>
+          <h1 class = "friday">Friday, 26 August 2022</h1>
+          <div class = "picture1">
+          <img class = "New-house1" src="Images/New_house.jpg">
+          <h1  id = "textstyle1"  class = "image15">New_house.jpg</h1>
+          <img class = "heart3" src="Images/Vector.svg" alt="redheart">
+          </div>
+          <div class = "picture2">
+          <img class = "Kitchen1" src="Images/Kitchen_sansudan.jpg">
+          <h1 id = "textstyle1"  class = "image16">Kitchen_sansudan.jpg</h1>
+          <img class = "heart8" src="Images/Vector.svg" alt="redheart">
+          </div>
+          <div class = "picture3">
+          <img class = "Bridge1" src="Images/Bridge.jpg">
+          <h1 id = "textstyle1"  class = "image18">Bridge.jpg</h1>
+          <img class = "heart4" src="Images/heart.png" alt="redheart">
+          </div>
+
+        
+          <h3 class="Week">This Week</h3>
+          <h1 class = "August">21 to 25 August 2022</h1>
+          <div class = "photo7">
+          <img class = "Whitehouse1" src="Images/Whitehouse.jpg" alt = "child">
+          <h1 id = "textstyle1" class = "image19">seg_12399.jpg</h1>
+          <img class = "heart5" src="Images/heart.png" alt="redheart">
+          </div>
+          <div class = "photo8">
+          <img class = "women1" src="Images/women.jpg">
+          <h1 id = "textstyle1"  class = "image20">New_house.jpg</h1>
+          <img class = "heart6" src="Images/heart.png" alt="redheart">
+          </div>
+          <div class = "photo">
+          <img class = "Abstract1" src="Images/Abstract_4453.jpg">
+          <h1 id = "textstyle1"  class = "image22">Abstract_44533.jpg</h1>
+          <!-- <img class = "heart7" src="Images/heart.png" alt="redheart"> -->
+          </div>
+          <div class = "photo14">
+          <img class = "Abstract" src="Images/cat.jpg">
+          <h1 id="textstyle" class = "image21">New_house.jpg</h1>
+          <img class = "heart1" src="Images/heart.png" alt="redheart">
+          </div>
+        </div>
+
+    
+    
+    <script src="main.js"></script>
+
+  </body>
+</html>
