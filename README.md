@@ -14,6 +14,10 @@ This Project was given to me as an assignment by Samudra, India. I was asked to 
 ## 🛠 Skills
 CSS Javascript Html
 
+## Screenshots
+
+![App Screenshot]()
+
 
 ## Run Locally
 
