@@ -17,7 +17,9 @@ CSS Javascript Html
 ## Screenshots
 
 ![App Screenshot]()
+
 ![Screenshot 2022-09-06 at 07-29-36 Web Photo Gallery app](https://user-images.githubusercontent.com/64955243/188532212-ca4e1685-6a46-408c-94ad-132e31b1b59c.png)
+
 ![Screenshot 2022-09-06 at 07-30-33 Web Photo Gallery app](https://user-images.githubusercontent.com/64955243/188532217-77612b02-396a-473a-90f1-6bf730ae8b13.png)
 
 
