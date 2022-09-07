@@ -5,7 +5,8 @@
 
 body {
     background-color: #1E1E1E;
-
+    min-height: 100vh;
+    width: 100vw;
 }
 
 body {
@@ -133,7 +134,7 @@ body {
 }
 
 .content {
-    /* position: absolute; */
+    position: relative;
     transform: translateX(100%);
     transition: 0.3s;
 }
@@ -826,12 +827,17 @@ body {
     top: 708px;
 }
 
-@media only screen and (min-width:321px) and (max-width:768px) {
+@media only screen and (min-width:768px) and (max-width:1024px) {
 
-
+    html,
     body {
         overflow-x: hidden;
     }
+
+    body {
+        position: relative
+    }
+
 
 
     .frame {
@@ -864,7 +870,7 @@ body {
         position: absolute;
         width: 331px;
         height: 56px;
-        left: 600px;
+        left: 470px;
         top: 161px;
     }
 
@@ -1035,20 +1041,7 @@ body {
         top: 697px;
     }
 
-    .photo7 {
-        position: absolute;
-        width: 159px;
-        height: 243px;
-        left: 318px;
-        top: 941px;
-    }
 
-    .photo8 {
-        width: 159px;
-        height: 241px;
-        left: 500px;
-        top: 943px;
-    }
 
     .photo9 {
         width: 159px;
@@ -1131,12 +1124,144 @@ body {
         top: 293px;
     }
 
+    .picture1 {
+        position: absolute;
+        width: 159px;
+        height: 153px;
+        left: 300px;
+        top: 485px;
+    }
+
+    .New-house1 {
+        position: absolute;
+        width: 159px;
+        height: 111px;
+        left: 0px;
+        top: 0px;
+        border-radius: 10px;
+    }
+
+    .image15 {
+        position: absolute;
+        width: 159px;
+        height: 32px;
+        left: 30px;
+        top: 121px;
+    }
+
+    .heart3 {
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        left: 122px;
+        top: 6px;
+
+        background: #EC6A5E;
+    }
+
+
+    .picture2 {
+        position: absolute;
+        width: 159px;
+        height: 241px;
+        left: 500px;
+        top: 400px;
+    }
+
+    .Kitchen1 {
+        position: absolute;
+        width: 108px;
+        height: 199px;
+        left: 25px;
+        top: 0px;
+        border-radius: 10px;
+    }
+
+    .image16 {
+        position: absolute;
+        width: 159px;
+        height: 32px;
+        left: 0px;
+        top: 209px;
+    }
+
+    .heart8 {
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        left: 98px;
+        top: 7px;
+        background: #EC6A5E;
+    }
+
+
+    .picture3 {
+        position: absolute;
+        width: 159px;
+        height: 137px;
+        left: 300px;
+        top: 730px;
+    }
+
+    .Bridge1 {
+        position: absolute;
+        width: 159px;
+        height: 95px;
+        left: 0px;
+        top: 0px;
+        border-radius: 10px;
+    }
+
+    .image18 {
+        position: absolute;
+        width: 159px;
+        height: 32px;
+        left: 50px;
+        top: 105px;
+    }
+
+    .heart4 {
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        left: 124px;
+        top: 5px;
+    }
+
+
+
+    .photo14 {
+        width: 159px;
+        height: 241px;
+        left: 325px;
+        top: 1250px;
+    }
+
+    .image21 {
+        bottom: 40px;
+    }
+
+    .photo7 {
+        position: absolute;
+        width: 159px;
+        height: 243px;
+        left: 318px;
+        top: 941px;
+    }
+
+    .photo8 {
+        width: 159px;
+        height: 241px;
+        left: 500px;
+        top: 943px;
+    }
+
 
 
 }
 
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 750px) and (-webkit-min-device-pixel-ratio: 3) {
 
     html,
     body {
@@ -1219,6 +1344,10 @@ body {
         display: none;
     }
 
+    .frame {
+        display: none;
+    }
+
     #Allphotos {
         position: absolute;
         width: 95px;
@@ -1274,13 +1403,7 @@ body {
         top: 532px;
     }
 
-    .picture1 {
-        position: absolute;
-        width: 159px;
-        height: 153px;
-        left: 206px;
-        top: 532px;
-    }
+
 
 
     .gallery {
@@ -1308,13 +1431,7 @@ body {
         top: 829px;
     }
 
-    .picture3 {
-        position: absolute;
-        width: 159px;
-        height: 137px;
-        left: 207px;
-        top: 829px;
-    }
+
 
     .photo6 {
         position: absolute;
@@ -1324,6 +1441,8 @@ body {
         top: 1014px;
     }
 
+
+
     .photo4 {
         position: absolute;
         width: 159px;
@@ -1332,13 +1451,7 @@ body {
         top: 725px;
     }
 
-    .picture2 {
-        position: absolute;
-        width: 159px;
-        height: 241px;
-        left: 25px;
-        top: 725px;
-    }
+
 
 
     .photo7 {
@@ -1386,7 +1499,11 @@ body {
         width: 159px;
         height: 243px;
         left: 25px;
-        top: 2224px;
+        top: 1680px;
+    }
+
+    .image21 {
+        top: 170px;
     }
 
     .photo11 {
@@ -1413,7 +1530,113 @@ body {
         top: 2273px;
     }
 
+    .picture1 {
+        position: absolute;
+        width: 159px;
+        height: 153px;
+        left: 20px;
+        top: 537px;
+    }
 
+    .New-house1 {
+        position: absolute;
+        width: 159px;
+        height: 111px;
+        left: 0px;
+        top: 0px;
+        border-radius: 10px;
+    }
+
+    .image15 {
+        position: absolute;
+        width: 159px;
+        height: 32px;
+        left: 30px;
+        top: 121px;
+
+    }
+
+    .heart3 {
+        position: absolute;
+        left: 80%;
+        right: 8.33%;
+        top: 10%;
+        bottom: 12.43%;
+
+        background: #EC6A5E;
+    }
+
+
+    .picture2 {
+        position: absolute;
+        width: 159px;
+        height: 241px;
+        left: 210px;
+        top: 450px;
+    }
+
+    .Kitchen1 {
+        position: absolute;
+        width: 108px;
+        height: 199px;
+        left: 25px;
+        top: 0px;
+        border-radius: 10px;
+
+    }
+
+    .image16 {
+        position: absolute;
+        width: 159px;
+        height: 32px;
+        left: 0px;
+        top: 209px;
+    }
+
+    .heart8 {
+        position: absolute;
+        left: 60%;
+        right: 8.33%;
+        top: 11%;
+        bottom: 12.43%;
+
+        background: #EC6A5E;
+    }
+
+    .picture3 {
+        position: absolute;
+        width: 159px;
+        height: 137px;
+        left: 20px;
+        top: 760px;
+    }
+
+    .image18 {
+        position: absolute;
+        width: 159px;
+        height: 32px;
+        left: 50px;
+        top: 105px;
+    }
+
+    .Bridge1 {
+
+
+        position: absolute;
+        width: 159px;
+        height: 95px;
+        left: 0px;
+        top: 0px;
+        border-radius: 10px;
+    }
+
+    .heart4 {
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        left: 124px;
+        top: 5px;
+    }
 
 
 
